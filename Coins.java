@@ -2,7 +2,8 @@ public class Coins
 {
   public static void main(String[] args)
   {
-    // test code here
+    int coins = 1985;
+    System.out.println(coinConverter(coins));
   }
 
   public static double coinConverter(int pennies)
