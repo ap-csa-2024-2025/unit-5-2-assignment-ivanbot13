@@ -5,6 +5,10 @@ public class Coins
     // test code here
   }
 
-  // write code for coinConverter
+  public static double coinConverter(int pennies)
+  {
+    int bills = pennies/100;
+    int quarters = (pennies%100)/25;
+  }
 
 }
